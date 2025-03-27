@@ -29,7 +29,7 @@ function UserAvatar() {
   return (
     <StyledUserAvatar>
       <Avatar
-        src={avatar || "../../../public/default-user.jpg"}
+        src={avatar || "/default-user.jpg"}
         alt={`Avata of ${fullName}`}
       />
       {isLoading ? <SpinnerMini /> : <span>{fullName}</span>}
